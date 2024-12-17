@@ -5,11 +5,12 @@ body{
     background-color: #f0f0f0;
 }
 .navbar{
-    position: fixed;
     display: flex;
     justify-content: space-between;
-    text-align: left;
     background-color: #333;
+}
+#contact{
+    margin: left auto;
 }
 li {
     display: inline-block;
