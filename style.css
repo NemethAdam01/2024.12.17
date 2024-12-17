@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #333;
+}
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+a:hover {
+    background-color: #555;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 40px;
+    background-color: #30d81a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.5);
+}
